@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px
+	
+}
+body{
+	font-family:'Lato', sans-serif; 
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #3a9772;
+    background-color: transparent;
+}
+
+.navbar-brand{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+li > a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*.navbar-default {
+    border: none;
+}*/
+.bg-green{
+	background: #20b799;
+	padding: 100px;
+    color: white;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.bg-blue{
+	background: #43434d;
+	color: white;
+	padding: 50px;
+}
+.bg-snow{
+	color: black;
+	padding: 50px;
+}
+.bac{
+	background: black;
+	color: white;
+}
