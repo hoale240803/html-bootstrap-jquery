@@ -1,0 +1,43 @@
+.bg-image {
+	padding-top: 230px;
+	padding-bottom: 280px;
+	background: url(img/female9.jpg);
+	color: #8f0082;
+	/* opacity: 0.4; */
+}
+nav.navbar.navbar-default {
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 900;
+	text-shadow: 1px 2px 0 black;
+}
+.bg-gray {
+    padding: 26px;
+}
+.bg-decoration h2{
+    font-size: 42px;
+    font-weight: 600;
+}
+.bg-decoration p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.background-img2 {
+    padding: 20px;
+}
+.horizon{
+	display: flex;
+	flex-direction: row;
+}
+
+ul.horizon {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+.horizon li {
+    padding: 5px;
+}
