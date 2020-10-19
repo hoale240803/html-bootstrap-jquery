@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.bg-image {
+    background: url(img/sea.jpg);
+    height: 700px;
+}
+.bg-image h2 {padding-top: 20%;}
+
+.bg-image p {
+    padding: 8px;
+}
+.bg-image h2 {
+    color: white;
+    font-size: 41px;
+}
+
+.bg-image p {
+    color: white;
+    font-size: 16px;
+}
+.bg-gray2 {
+    background: #42739e;
+    color: white;
+    font-weight: 300;
+    padding: 31px;
+}
+.col-xs-6.col-sm-6.col-md-6.col-lg-6 {
+    padding: 10px;
+}
+
+.col-md-10.col-md-push-2 {
+    padding: 10px;
+}
+.view-btn {
+    padding: 19px;
+}
+.impossible-section {
+    background: #f6f6f6;
+    padding: 24px;
+}
+iframe {
+    border-radius: 44px;
+    padding: 22px;
+}
+.footer h2 {
+    padding: 14px;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.icons-footer {
+    padding: 20px;
+}
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bg-gray1 {
+    padding: 30px;
+}
+
+b.fa.fa-cloud {
+    font-size: 32px;
+    /* top: 51%; */
+    /* left: 29px; */
+}
+
+.cloud-icon {
+    border-radius: 50%;
+    background: #080202;
+    height: 96px;
+    width: 101px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa.fa-envelope {
+    padding-right: 5px;
+}
+
+.fa.fa-phone {
+    padding-right: 5px;
+}
+.col-xs-12.col-sm-6.col-md-3.col-lg-3.text-center {
+    padding: 10px;
+}
+img.img-responsive {
+    padding: 10px;
+}
+.container.text-center {
+    padding: 50px;
+}
+.menu-button {
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    padding: 5px 12px;
+    font-size: 31px;
+    background: #6d6d6d;
+    color: white;
+    margin: 5px;
+}
+.right-menu {
+    top: 0px;
+    right: -3000px;
+    position: fixed;
+    background: black;
+    height: 900px;
+    width: 271px;
+    list-style: none;
+    transition: all 0.5s;
+    z-index: 5;
+}
+
+.right-menu ul {
+    list-style: none;
+    padding-left: 56px;
+}
+
+.right-menu h2 {
+    padding: 27px;
+}
+
+.right-menu li {
+    padding-top: 5px;
+    font-size: 18px;
+}
+.right-menu a:hover {
+    color: white;
+}
+.out {
+    right: 0px;
+    transition: all 0.5s;
+}
+.menu-button:hover {
+    background: #d0cdcd;
+}

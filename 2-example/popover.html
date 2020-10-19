@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HoaL</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<!-- import js file -->
+	<script type="text/javascript" src="popover.js"></script>
+	<!-- link css file -->
+	<link rel="stylesheet" href="popover.css">
+
+</head>
+<!-- data-spy="scroll" data-target=".navbar" data-offset="50" -->
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="55">
+
+	<div class="container">
+		<div class="row text-center list-btn">
+			<button type="button" class="btn btn-default btn-1" hienthi="modi" >button</button>
+			<button type="button" class="btn btn-danger btn-2" hienthi="komo" >button</button>
+			<button type="button" class="btn btn-success btn-3" hienthi="modi" >button</button>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="text-center list-btn">
+				<p class="btn btn-default" ani="popover" data-content="hiệu ứng popover đây!" data-placement="left" title="tiêu đề của khối">Click to be surprising!</p>
+			</div>
+		</div>
+	</div> <!-- end popover -->
+	<div class="container text-center">
+		<div class="title">
+			<h2>Hiệu ứng tooltip</h2>
+		</div>
+		<div class="row">
+			<div class="text-center">
+				<b class="btn btn-default" ani="tooltip-day-ne" title="Mình là tooltip nè!" data-placement="bottom">Tooltip là gì zậy?</b>
+			</div>
+		</div>
+	</div> <!-- end tooltip -->
+
+</body>
+</html>
+

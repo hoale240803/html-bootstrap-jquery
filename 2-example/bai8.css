@@ -1,0 +1,32 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.line-gray{
+	border-right: 1px solid gray;
+	height: 100px;
+}
+.row.one-new {
+    margin-top: 3em;
+}
+.line {
+    position: absolute;
+    width: 2px;
+    background: #565454;
+    left: 50%;
+    height: 150%;
+    top: 159px;
+}
+img.img-responsive.img-circle {
+    border: 5px solid gray;
+}
+::selection{
+	color: white;
+	background: #fed136;
+}
+.timeline {
+    margin-top: 10em;
+}
+.timeline-content p {
+    line-height: 20px;
+}

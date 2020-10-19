@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HoaL</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- link fontawsome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<!-- import js file -->
+	<script type="text/javascript" src="bai6.js"></script>
+
+	<!-- thư viện gia tốc nhanh chậm jquery -->
+	<!-- tham khảo tại link này https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.compatibility.js -->
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+	<!-- link css file -->
+	<link rel="stylesheet" href="bai6.css">
+	<!-- link  Montserrat font -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<!-- data-spy="scroll" data-target=".navbar" data-offset="50" -->
+<body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="55">
+	<nav class="navbar navbar-default bg-navbar navbar-fixed-top"  role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">START BOOTSTRAP</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li ><a href="#sanpham" class="n1">PORTFOLIO</a></li>
+					<li><a href="#gioithieu" class="n2">ABOUT</a></li>
+					<li><a href="#lienhe" class="n3">CONTACT</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav> <!-- end navbar -->
+
+	<div class="banner" id="home">
+		<div class="container text-center">
+			<img src="img/profile.png" alt="Image">
+			<h2>START BOOTSTRAP</h2>
+			<div class="star">
+				<b class="fa fa-star"></b>
+			</div>
+			<h4>Web Developer - Graphic Artist - User Experience Designer</h4>
+		</div>
+	</div> <!-- end bânner -->
+
+
+	<div class="portfolio" id="sanpham">
+		<div class="container">
+			<div class="row text-center">
+				<h2>PORTFOLIO</h2>
+				<div class="star">
+					<b class="fa fa-star"></b>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="product">
+						<div class="caption">
+							<div class="caption-icon">
+								<b class="fa fa-search-plus"></b>
+							</div>
+						</div>
+						<img src="img/portfolio/cabin.png" class="img-responsive" alt="Image">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="product">
+						<div class="caption">
+							<div class="caption-icon">
+								<b class="fa fa-search-plus"></b>							
+							</div>
+						</div>
+						<img src="img/portfolio/cake.png" class="img-responsive" alt="Image">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="product">
+						<div class="caption">
+							<div class="caption-icon">
+								<b class="fa fa-search-plus"></b>							
+							</div>
+						</div>
+						<img src="img/portfolio/circus.png" class="img-responsive" alt="Image">
+					</div>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="product">
+						<div class="caption">
+							<div class="caption-icon">
+								<b class="fa fa-search-plus"></b>						
+							</div>
+						</div>
+						<img src="img/portfolio/game.png" class="img-responsive" alt="Image">
+					</div>			
+				</div>
+				<div class="col-sm-4">
+					<div class="product">
+						<div class="caption">
+							<div class="caption-icon">
+								<b class="fa fa-search-plus"></b>							
+							</div>
+						</div>
+						<img src="img/portfolio/safe.png" class="img-responsive" alt="Image">
+					</div>			
+				</div>
+				<div class="col-sm-4">
+					<div class="product">
+						<div class="caption">
+							<div class="caption-icon">
+								<b class="fa fa-search-plus"></b>							
+							</div>
+						</div>
+						<img src="img/portfolio/submarine.png" class="img-responsive" alt="Image">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div> <!-- end portfolio -->
+	<div class="about" id="gioithieu">
+		<div class="container text-center">
+			<h2>ABOUT</h2>
+			<div class="row">
+				<div class="col-xs-4 col-xs-push-4">
+					<hr>
+				</div>
+			</div>
+			<div>
+				<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+
+				Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+			</div>
+			<div class="btn-download">
+				<button type="button" class="btn btn-default">
+					<b class="fa fa-download"> </b>
+					Download Theme
+				</button>
+			</div>
+		</div> 
+	</div> <!-- end about -->
+	<div class="text-center contact" id="lienhe">
+		<div class="container">
+			<h2>CONTACT ME</h2>
+			<div class="row">
+				<div class="col-xs-4 col-xs-push-4">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-push-1">
+					<input type="text" name="NAME" id="input" class="form-control" value="" required="required" pattern="" title="" placeholder="Name">
+					<input type="email" name="EMAIL" id="input" class="form-control" value="" required="required" placeholder="Email">
+					<input type="tel" name="" id="input" class="form-control" value="" required="required" placeholder="Phone Number">
+					<textarea name="" id="input" class="form-control" rows="3" required="required" placeholder="Message"></textarea>
+					<button type="button" class="btn btn-info">Button</button>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end contact -->
+	<div>
+		<button type="button" class="btn btn-success home-btn "><a href="#home" ><b class="fa fa-arrow-up fa-3x"></b></a></button>
+	</div> <!-- end home button -->
+	<div class="bg-footer" id="footer">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>LOCATION</h2>
+					<h4>191 Nguyễn Duy Trinh, Hòa Hải, Ngũ Hành Sơn, Đà Nẵng</h4>
+				</div>
+				<div class="col-md-4">
+					<h2>AROUND THE WEB</h2>
+					<div class="row">
+						<div class="icons">
+							<div class="fb-icon">
+								<b class="fa fa-facebook fa-3x"></b>
+							</div>
+							<div class="fb-icon">
+								<b class="fa fa-google fa-3x"></b>
+							</div>
+							<div class="fb-icon">
+								<b class="fa fa-twitter fa-3x"></b>
+							</div>
+							<div class="fb-icon">
+								<b class="fa fa-linkedin fa-3x"></b>
+							</div>
+							<div class="fb-icon">
+								<b class="fa fa-dribbble fa-3x"></b>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h2>ABOUT FREELANCER</h2>
+					<p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap.</a></p>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end footer -->
+	<div class="bg-footer1 text-center">
+		<h3>Copyright ©HoaL</h3>
+	</div>
+</body>
+</html>
+

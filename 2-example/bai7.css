@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lora', serif;
+}
+
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    background: none;
+    /* color: white; */
+    border-color: gray;
+    padding: 1.5em;
+    transition: all 1s;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+a.navbar-brand.title-color {
+    /* padding: 1em; */
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.title-color span {
+    font-weight: 100;
+    margin-right: 5px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+
+.banner p {
+    padding-top: 8px;
+    font-size: 3em;
+}
+i.fas.fa-angle-double-down.icon-border {
+    margin-top: 13px;
+}
+.banner{
+    background: url('img/intro-bg.jpg') no-repeat bottom center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    padding-top: 9em;
+    padding-bottom: 5em;
+    color: white;
+}
+.banner h2 {
+    font-size: 7em;
+    font-weight: 900;
+    color: white;
+}
+
+
+.about {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background: black;
+    color: white;
+}
+.about p {
+    margin-top: 2em;
+}
+.download button.btn.btn-default {
+    border-radius: 0px;
+    background: none;
+    border: 1px solid #42dca3;
+    color: #42dca3;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+.download {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background: url(img/downloads-bg.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+    color: white;
+}
+
+.download button.btn.btn-default:hover {
+    background: #42dca3;
+    color: black;
+}
+b.fa.fa-angle-double-down.icon-border {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+
+
+
+.contact{
+    color: white;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background: black;
+}
+.contact a {
+    font-size: 21px;
+}
+.list-btn {
+    margin-top: 2em;
+}
+button.btn.btn-default {
+    color: #42dca3;
+    background-color: #fff;
+    border-color: #ccc;
+    background: none;
+    border: 1px solid #42dca3;
+    border-radius: 0px;
+    font-size: 1.5em;
+}
+.list-btn button.btn.btn-default {margin-right: 1em;}
+
+
+i.fa.fa-twitter {
+    margin-right: 5px;
+}
+i.fa.fa-github {
+    margin-right: 5px;
+}
+i.fa.fa-google {
+    margin-right: 5px;
+}
+
+.footer {
+    /* margin-top: 2em; */
+    /* line-height: 1em; */
+    padding-top: 3em;
+    background: black;
+}
+.footer h4 {
+    font-weight: 500;
+    text-transform: none;
+    color: white;
+}
+div#map {
+    margin: 0px;
+    background: black;
+}
+
+
+/*class for jquery*/
+nav.navbar.navbar-default.navbar-fixed-top.blacker{
+    transition: all 1s;
+    background: black;
+    padding:1em;
+}
